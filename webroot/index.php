@@ -24,7 +24,7 @@
 					latitude = position.coords.latitude;
 					longitude = position.coords.longitude;
 					initialize();
-				}
+				{
 		
 			get_location();
 		
@@ -55,7 +55,7 @@
                             var marker$result[ID] = new google.maps.Marker({
                                 position: new google.maps.LatLng($result[Lat],$result[Long]),
                                 map: map,
-                                title: 'BANANA!'
+                                title: 'APPLES'
                             });
                             
                             google.maps.event.addListener(marker$result[ID], 'click', function() {
